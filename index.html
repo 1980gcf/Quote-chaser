@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quote Chaser</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Quote Chaser</h1>
+    <p class="tagline">Keep track of your quotes and chase the ones gone quiet.</p>
+  </header>
+
+  <main>
+    <!-- Summary boxes. The numbers are filled in by app.js -->
+    <section class="summary">
+      <div class="card">
+        <span class="card-label">Waiting</span>
+        <span class="card-number" id="waiting-count">0</span>
+        <span class="card-amount" id="waiting-total">£0</span>
+      </div>
+      <div class="card">
+        <span class="card-label">Won</span>
+        <span class="card-number" id="won-count">0</span>
+        <span class="card-amount" id="won-total">£0</span>
+      </div>
+      <div class="card">
+        <span class="card-label">Lost</span>
+        <span class="card-number" id="lost-count">0</span>
+        <span class="card-amount" id="lost-total">£0</span>
+      </div>
+    </section>
+
+    <!-- The table of quotes. The rows are filled in by app.js -->
+    <section>
+      <h2>Your quotes</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Customer</th>
+            <th class="amount">Amount</th>
+            <th>Date sent</th>
+            <th>Status</th>
+          </tr>
+        </thead>
+        <tbody id="quote-rows"></tbody>
+      </table>
+    </section>
+  </main>
+
+  <!-- Load the fake data first, then the code that uses it -->
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
