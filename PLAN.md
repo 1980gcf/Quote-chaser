@@ -99,8 +99,22 @@ worry about them yet.
 
 ## How to open the app (step 1)
 
-1. Find the `Quote-chaser` folder on your computer.
-2. Double-click `index.html`. It will open in your web browser.
-3. That's it – no installing anything.
+The code is stored on GitHub (a website that keeps your code safe online):
+https://github.com/1980gcf/Quote-chaser
+
+To get it onto your computer:
+
+1. Open the link above in your web browser.
+2. Click the green **Code** button near the top right, then click **Download ZIP**.
+3. Find the downloaded file (usually in your **Downloads** folder). It will be
+   called something like `Quote-chaser-master.zip`.
+4. Unzip it:
+   - **Windows:** right-click it and choose **Extract All**.
+   - **Mac:** double-click it.
+5. Open the new `Quote-chaser-master` folder and double-click `index.html`.
+   It will open in your web browser.
+6. That's it – no installing anything.
+
+Each time we finish a new step, download a fresh ZIP to get the latest version.
 
 To see a change you've made to the code, save the file and refresh the browser page.
