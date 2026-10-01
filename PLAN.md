@@ -97,24 +97,17 @@ before moving on.
 We'll decide the exact tools for steps 7 and 8 when we get there – no need to
 worry about them yet.
 
-## How to open the app (step 1)
+## How to open the app
 
-The code is stored on GitHub (a website that keeps your code safe online):
-https://github.com/1980gcf/Quote-chaser
+Open this link on any phone, tablet or computer:
 
-To get it onto your computer:
+**https://1980gcf.github.io/Quote-chaser/**
 
-1. Open the link above in your web browser.
-2. Click the green **Code** button near the top right, then click **Download ZIP**.
-3. Find the downloaded file (usually in your **Downloads** folder). It will be
-   called something like `Quote-chaser-master.zip`.
-4. Unzip it:
-   - **Windows:** right-click it and choose **Extract All**.
-   - **Mac:** double-click it.
-5. Open the new `Quote-chaser-master` folder and double-click `index.html`.
-   It will open in your web browser.
-6. That's it – no installing anything.
+This works because of **GitHub Pages** – a free GitHub feature that turns the
+files in this project into a real web page with its own address. Whenever new
+code is saved to GitHub, the page updates by itself within a minute or two
+(refresh the page if you don't see the change).
 
-Each time we finish a new step, download a fresh ZIP to get the latest version.
-
-To see a change you've made to the code, save the file and refresh the browser page.
+> **Tip:** don't open `index.html` from a Files app or a downloaded ZIP on a phone
+> or tablet. Those previews only open that one file, so the colours (`style.css`)
+> and the quotes (`data.js`, `app.js`) don't load and the page looks blank and plain.
